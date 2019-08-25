@@ -21,6 +21,12 @@
   },
   "homepage": "https://github.com/ChangzeYan/reviewbook#readme",
   "dependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "gitbook-plugin-hide-element": "0.0.4"
+  },
+  "pluginsConfig": {
+    "gitbook-plugin-hide-element": {
+        "elements": [".gitbook-link"]
+    }
   }
 }
